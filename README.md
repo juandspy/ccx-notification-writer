@@ -14,29 +14,29 @@ CCX Notification Writer service
 
 <!-- vim-markdown-toc GFM -->
 
-* [Description](#description)
-    * [Architecture](#architecture)
-* [Building](#building)
-    * [Makefile targets](#makefile-targets)
-* [Configuration](#configuration)
-* [Usage](#usage)
-    * [All command line options](#all-command-line-options)
-    * [Starting the service](#starting-the-service)
-    * [Cleanup old records](#cleanup-old-records)
-* [Metrics](#metrics)
-    * [Exposed metrics](#exposed-metrics)
-    * [Retriewing metrics](#retriewing-metrics)
-* [Database](#database)
-    * [Migrations](#migrations)
-    * [Database schema](#database-schema)
-    * [Check PostgreSQL status](#check-postgresql-status)
-    * [Start PostgreSQL database](#start-postgresql-database)
-    * [Login into the database](#login-into-the-database)
-* [Definition of Done for new features and fixes](#definition-of-done-for-new-features-and-fixes)
-* [Testing](#testing)
-* [BDD tests](#bdd-tests)
-* [Benchmarks](#benchmarks)
-* [Package manifest](#package-manifest)
+- [ccx-notification-writer](#ccx-notification-writer)
+  - [Description](#description)
+    - [Architecture](#architecture)
+  - [Building](#building)
+    - [Makefile targets](#makefile-targets)
+  - [Configuration](#configuration)
+  - [Usage](#usage)
+    - [All command line options](#all-command-line-options)
+    - [Starting the service](#starting-the-service)
+    - [Cleanup old records](#cleanup-old-records)
+  - [Metrics](#metrics)
+    - [Exposed metrics](#exposed-metrics)
+    - [Retriewing metrics](#retriewing-metrics)
+  - [Database](#database)
+    - [Migrations](#migrations)
+    - [Database schema](#database-schema)
+    - [Check PostgreSQL status](#check-postgresql-status)
+    - [Start PostgreSQL database](#start-postgresql-database)
+    - [Login into the database](#login-into-the-database)
+  - [Definition of Done for new features and fixes](#definition-of-done-for-new-features-and-fixes)
+  - [Testing](#testing)
+  - [BDD tests](#bdd-tests)
+  - [Benchmarks](#benchmarks)
 
 <!-- vim-markdown-toc -->
 
@@ -314,8 +314,3 @@ List of all test scenarios prepared for this service is available at
 ## Benchmarks
 
 Benchmarks and its preparation and configuration is described [in this document](https://redhatinsights.github.io/ccx-notification-writer/benchmarks.html)
-
-
-## Package manifest
-
-Package manifest is available at [docs/manifest.txt](docs/manifest.txt).
